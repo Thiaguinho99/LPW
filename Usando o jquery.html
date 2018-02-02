@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src = "jquery.min.js"   ></script>
+
+<script>
+$(document).ready(function(){
+    
+	$("#clique1").click(function(){
+    
+	 $("#texto").text("JQuery");
+	 $("#texto").css("color", "blue");
+	 $("#texto").animate ({
+	 marginLeft:"+=200px",opacity:0.5}, 2000 );
+	});
+	
+	});
+</script>
+
+</head>
+
+<body>
+<a id = "texto"></a>
+<br>
+<a id = "clique1"> clique aqui para executar o jquery</a>
+
+</body>
+
+</html>
